@@ -1,0 +1,303 @@
+body {
+    font-family: Brandon Grotesque;
+    font-size: 16px;
+    line-height: 1.5;
+
+    background-color: #ffffff;
+    color: #333333;
+}
+
+span{
+    width:auto;
+    height: auto;
+}
+
+.container-land {
+    height: 100vh;
+    margin: 0 20% 0 5%;
+}
+
+.container {
+    height: auto;
+    margin: 0 20% 0 5%;
+}
+
+.container-cont{
+    height: 200px;
+}
+
+.name {
+    font-family: Brandon Grotesque;
+    font-size: 100px;
+    text-align: left;
+    margin: 12% 0 0 0;
+}
+
+.lead {
+    text-align: left;
+    font-size: 30px;
+}
+
+.content {
+    background: transparent;
+    padding-top: 80px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.nav-link {
+    font-family: Brandon Grotesque;
+    color: black;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#about-me {
+    text-align: left;
+    padding: 5% 0 0 0;
+}
+
+#portfolio {
+    text-align: left;
+    padding: 5% 0;
+}
+
+.box {
+    background-color: peachpuff;
+    float: left;
+    height: 80%;
+    width: 50%;
+    top: 20%;
+}
+
+
+#me {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+#description {
+    font-size: 20px;
+    padding-top: 3%;
+    height: 300px;
+    background: transparent;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.about-wrap {
+    margin: 5% 8%;
+}
+
+.project-wrap{
+    margin: 0 0 0 5%;
+}
+
+#contact {
+    text-align: left;
+    padding: 8% 0 0 0;
+}
+
+.icon-bar {
+    width: 22px;
+    height: 2px;
+    background-color: #B6B6B6;
+    display: block;
+    transition: all 0.2s;
+    margin-top: 4px
+}
+
+.navbar-toggler {
+    border: none;
+    background: transparent !important;
+}
+
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+
+:root {
+    --mainColor: pink;
+    --secondaryColor: #FFFCC9;
+}
+
+a.box-effect {
+    background:
+        linear-gradient(to bottom, var(--mainColor) 40%,
+        var(--secondaryColor) 120%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .3s;
+}
+
+a.box-effect:hover {
+    background-size: 4px 40%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 100%;
+}
+
+.gradient {
+    background-image: linear-gradient(to bottom, #feb4b1, pink, #FFDAB9, #FFFCC9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(0, 0, 0, 1);
+    display: block;
+    transition: color .1s ease-in-out;
+    cursor: default;
+}
+
+.gradient:hover {
+    color: rgba(0, 0, 0, 0);
+}
+
+.social {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
+
+
+.wrapper-sm.fab .far {
+    color: #D8E2DC;
+    margin-left: 20px;
+    transition: all 0.3s ease;
+}
+
+.socialm {
+    margin-left: 10px;
+    color: lightgray;
+}
+
+/*facebook*/
+
+.wrapper-sm a:hover .fa-envelope {
+    color: #dd4b39;
+    transition: all 0.5s ease;
+}
+
+/* instagram */
+
+.wrapper-sm a:hover .fa-dribbble {
+    color: #ea4c89;
+    transition: all 0.5s ease;
+}
+
+/* google */
+
+.wrapper-sm a:hover .fa-behance {
+    color: #053eff;
+    transition: all 0.5s ease;
+}
+
+/* whatsapp */
+
+.wrapper-sm a:hover .fa-linkedin-in {
+    color: #0077B5;
+    transition: all 0.5s ease;
+}
+
+/*
+.porteffect img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+
+.porteffect img:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+*/
+
+.image{
+    margin: 5%;
+}
+
+.project .content-overlay {
+  background: linear-gradient(to bottom, #feb4b1, pink, #FFDAB9, #FFFCC9);
+  position: absolute;
+  width: 428px;
+  height: 287px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  margin: 5%;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.project:hover .content-overlay{
+  opacity: 0.9;  
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 4em;
+  width: 428px;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.project:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
