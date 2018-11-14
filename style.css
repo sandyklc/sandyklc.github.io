@@ -307,16 +307,20 @@ a.box-effect:hover {
 
 @font-face {
     font-family: 'brandon_grotesquebold';
-    src: url('brandon_bld.otf');
+    src: url('brandon_bld-webfont.woff2') format('woff2'),
+         url('brandon_bld-webfont.woff') format('woff');
     font-weight: 900;
     font-style: normal;
 
 }
 
 
+
+
 @font-face {
     font-family: 'brandon_grotesque_regularRg';
-    src: url('brandon_reg.otf');
+    src: url('brandon_reg-webfont.woff2') format('woff2'),
+         url('brandon_reg-webfont.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 
