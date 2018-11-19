@@ -1,5 +1,5 @@
 body {
-    font-family: "Brandon Text";
+    font-family: "brandon_text_regular";
     font-style: normal;
     line-height: 1.5;
     background-color: #FFF1F1;
@@ -315,9 +315,6 @@ a.box-effect:hover {
 
 }
 
-
-
-
 @font-face {
     font-family: 'brandon_grotesque_regularRg';
     src: url('brandon_reg-webfont.woff2') format('woff2'),
@@ -326,3 +323,38 @@ a.box-effect:hover {
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'brandon_textbold';
+    src: url('hvd_fonts_-_brandontext-bold-webfont.woff2') format('woff2'),
+         url('hvd_fonts_-_brandontext-bold-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'brandon_textlight';
+    src: url('hvd_fonts_-_brandontext-light-webfont.woff2') format('woff2'),
+         url('hvd_fonts_-_brandontext-light-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'brandon_text_regular';
+    src: url('hvd_fonts_-_brandontext-regular-webfont.woff2') format('woff2'),
+         url('hvd_fonts_-_brandontext-regular-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'brandon_textthin';
+    src: url('hvd_fonts_-_brandontext-thin-webfont.woff2') format('woff2'),
+         url('hvd_fonts_-_brandontext-thin-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+
