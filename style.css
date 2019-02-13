@@ -239,25 +239,24 @@ a.box-effect:hover {
     transition: all 0.5s ease;
 }
 
-/*
-.porteffect img {
+/* img.porteffect {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-}
+} */
 
 
-.porteffect img:hover {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
-*/
+/* img.porteffect:hover {
+    -webkit-filter: grayscale(60%);
+    filter: grayscale(60%);
+} */
 
 
 .project {
   width: 100%;
   height: 100%;
+  opacity: .9;
 }
 
 .content-overlay {
@@ -276,7 +275,7 @@ a.box-effect:hover {
 }
 
 .project:hover .content-overlay {
-    opacity: 0.9;
+    opacity: .8;
 }
 
 .content-details {
