@@ -1,0 +1,213 @@
+body {
+    font-family: "brandon_text_regular";
+    font-style: normal;
+    line-height: 1.5;
+    background-color: #fff8f1;
+    color: #383838;
+}
+
+.container-land {
+    height: 15vh;
+    margin: 0 20% 0 8%;
+}
+
+.container {
+    height: auto;
+    margin: 0 20% 0 8%;
+}
+
+.return{
+  margin: 0 8% 5% 8%;
+}
+
+.name {
+    font-family: 'brandon_grotesquebold';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: left;
+    margin: 5% 0 0 0;
+}
+
+.remarks{
+    position: fixed;
+    top: 40%;
+    left: 28px;
+    transform: rotate(90deg);
+	transform-origin: left top 0;
+}
+
+.social {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
+
+
+.wrapper-sm.fab .far {
+    color: #D8E2DC;
+    margin-left: 20px;
+    transition: all 0.3s ease;
+}
+
+.socialm {
+    margin-left: 10px;
+    color: darkgrey;
+}
+
+/*facebook*/
+
+.wrapper-sm a:hover .fa-envelope {
+    color: #dd4b39;
+    transition: all 0.5s ease;
+}
+
+/* instagram */
+
+.wrapper-sm a:hover .fa-dribbble {
+    color: #ea4c89;
+    transition: all 0.5s ease;
+}
+
+/* google */
+
+.wrapper-sm a:hover .fa-behance {
+    color: #053eff;
+    transition: all 0.5s ease;
+}
+
+/* whatsapp */
+
+.wrapper-sm a:hover .fa-linkedin-in {
+    color: #0077B5;
+    transition: all 0.5s ease;
+}
+
+.icon-bar {
+    width: 22px;
+    height: 2px;
+    background-color: #B6B6B6;
+    display: block;
+    transition: all 0.2s;
+    margin-top: 4px
+}
+
+.nav-link {
+    font-family: 'brandon_grotesque_regularRg';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navbar-toggler {
+    border: none;
+    background: transparent !important;
+}
+
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+
+:root {
+    --mainColor: pink;
+    --secondaryColor: #FFFCC9;
+}
+
+a.box-effect {
+    background:
+        linear-gradient(to bottom, var(--mainColor) 40%,
+        var(--secondaryColor) 120%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .3s;
+}
+
+a.box-effect:hover {
+    background-size: 4px 40%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'brandon_grotesquebold';
+    src: url('brandon_bld-webfont.woff2') format('woff2'),
+         url('brandon_bld-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'brandon_grotesque_regularRg';
+    src: url('brandon_reg-webfont.woff2') format('woff2'),
+         url('brandon_reg-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'brandon_textbold';
+    src: url('hvd_fonts_-_brandontext-bold-webfont.woff2') format('woff2'),
+         url('hvd_fonts_-_brandontext-bold-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'brandon_textlight';
+    src: url('hvd_fonts_-_brandontext-light-webfont.woff2') format('woff2'),
+         url('hvd_fonts_-_brandontext-light-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'brandon_text_regular';
+    src: url('hvd_fonts_-_brandontext-regular-webfont.woff2') format('woff2'),
+         url('hvd_fonts_-_brandontext-regular-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'brandon_textthin';
+    src: url('hvd_fonts_-_brandontext-thin-webfont.woff2') format('woff2'),
+         url('hvd_fonts_-_brandontext-thin-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
