@@ -12,13 +12,13 @@ span {
 }
 
 .container-land {
-    height: 100vh;
-    margin: 0 20% 0 5%;
+    height: 50vh;
+    margin: 0 20% 0 8%;
 }
 
 .container {
     height: auto;
-    margin: 0 20% 0 5%;
+    margin: 0 20% 0 7%;
 }
 
 .container-cont {
@@ -102,7 +102,7 @@ h1 {
 }
 
 .project-wrap {
-    padding: 0 8% 0 0;
+    padding: 0 19% 0 0;
 }
 
 #contact {
@@ -258,11 +258,16 @@ a.box-effect:hover {
     margin: 5%;
 }
 
-.project .content-overlay {
+.project {
+  width: 450px;
+  height: 350px;
+}
+
+.content-overlay {
     background: linear-gradient(to bottom, #feb4b1, pink, #FFDAB9, #FFFCC9);
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 450px;
+    height: 350px;
     left: 0;
     top: 0;
     bottom: 0;
@@ -283,7 +288,7 @@ a.box-effect:hover {
     text-align: center;
     padding-left: 4em;
     padding-right: 1em;
-    width: 100%;
+    width: 450px;
     top: 50%;
     left: 50%;
     opacity: 0;
@@ -357,4 +362,3 @@ a.box-effect:hover {
          url('hvd_fonts_-_brandontext-thin-webfont.woff') format('woff');
     font-weight: 200;
     font-style: normal;
-
