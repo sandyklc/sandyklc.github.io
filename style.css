@@ -18,7 +18,15 @@ span {
 
 .container {
     height: auto;
+    margin: 0 20% 0 7%;
+    padding: 0 2% 0 0;
+
+}
+
+.container-about {
+    height: auto;
     margin: 0 20% 0 6%;
+    padding-bottom: 5%;
 }
 
 .name {
@@ -58,28 +66,37 @@ h1 {
     font-weight: 600;
 }
 
+h3 {
+    font-size: 25px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 600;
+}
+
 #about-me {
-    text-align: left;
+  width: 100vw;
+  height: 50%;
     padding: 2% 0;
     background-color: #ededed;
 }
 
 #portfolio {
     text-align: left;
-    padding: 5% 0 2% 0;
+    padding: 5% 0;
 }
 
 
 #me {
     float: left;
     margin-right: 20px;
+    margin-bottom: 5%;
     border-radius: 50%;
 }
 
 #description {
     font-size: 1.2em;
-    padding-top: 3%;
-    height: 300px;
+    padding-top: 6%;
+    height: auto;
     background: transparent;
     text-align: center;
     display: table-cell;
@@ -99,8 +116,7 @@ h1 {
 }
 
 #contact {
-    text-align: left;
-    padding: 5% 0 3% 0;
+    text-align: center;
 }
 
 .icon-bar {
