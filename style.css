@@ -481,6 +481,11 @@ a.box-effect:hover {
       margin: 0 7%;
       padding-bottom: 5%;
   }
+
+  .arrow {
+    text-align: center;
+    color: black;
+  }
 }
 
 @font-face {
