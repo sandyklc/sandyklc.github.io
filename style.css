@@ -463,6 +463,24 @@ a.box-effect:hover {
   .remarks {
     opacity: 0;
   }
+
+  .container-land {
+      height: 40%;
+      margin: 0 7%;
+  }
+
+  .container {
+      height: auto;
+      margin: 0 7%;
+      padding: 0 2% 0 0;
+
+  }
+
+  .container-about {
+      height: auto;
+      margin: 0 7%;
+      padding-bottom: 5%;
+  }
 }
 
 @font-face {
