@@ -487,8 +487,12 @@ a.box-effect:hover {
     color: black;
   }
 
-  #me{
-    margin-left: 5%;
+  #me {
+      float: none;
+      margin-right: 0;
+      margin-left: 5%;
+      margin-bottom: 5%;
+      border-radius: 50%;
   }
 }
 
