@@ -486,6 +486,10 @@ a.box-effect:hover {
     text-align: center;
     color: black;
   }
+
+  #me{
+    margin-left: 5%;
+  }
 }
 
 @font-face {
