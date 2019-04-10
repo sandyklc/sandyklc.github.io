@@ -1,10 +1,12 @@
 body {
-    font-family: 'Avenir';
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
+    letter-spacing: 2px;
     line-height: 1.5;
     background-color: white;
     color: #383838;
 }
+
 
 span {
     width: auto;
@@ -19,7 +21,7 @@ span {
 .container {
     height: auto;
     margin: 0 20% 0 7%;
-    padding: 0 2% 0 0;
+    padding: 0 4% 0 0;
 
 }
 
@@ -29,10 +31,16 @@ span {
     padding-bottom: 5%;
 }
 
+.headers{
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
 .name {
-    font-family: "Maison_neuebold",sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 350;
     font-size: 70px;
     text-align: left;
     margin: 12% 0 0 0;
@@ -53,24 +61,30 @@ span {
 
 
 .nav-link {
-    font-family: 'Maison_neuebold';
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 h1 {
     font-size: 30px;
-    font-family: 'Maison_neuebold';
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 h3 {
     font-size: 25px;
-    font-family: 'Avenir';
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
+}
+
+h4{
+  font-weight: 200;
 }
 
 #about-me {
@@ -96,6 +110,8 @@ h3 {
 #description {
     font-size: 1.2em;
     padding-top: 6%;
+    letter-spacing: 1px;
+    font-weight: 300;
     height: auto;
     background: transparent;
     text-align: center;
@@ -105,8 +121,9 @@ h3 {
 
 .remarks{
     position: fixed;
+    font-size: 10px;
     top: 40%;
-    left: 28px;
+    left: 20px;
     transform: rotate(90deg);
 	transform-origin: left top 0;
 }
@@ -406,7 +423,7 @@ a.box-effect:hover {
 }
 
 i.fa-angle-down{
-  -webkit-text-stroke: 2px white;
+  -webkit-text-stroke: 3px white;
 }
 
 @-moz-keyframes bounce {

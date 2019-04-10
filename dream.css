@@ -1,9 +1,16 @@
 body {
-    font-family: "Avenir";
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     line-height: 1.5;
     background-color: white;
     color: #383838;
+    letter-spacing: 2px;
+}
+
+h2{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .container-land {
@@ -18,22 +25,23 @@ body {
 }
 
 .return{
-  margin: 0 0 5% 6%;
+  margin: 0 0 5% 7%;
 }
 
 .name {
-    font-family: 'Maison_neuebold';
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
-    font-weight: 900;
-    font-size: 50px;
+    font-weight: 350;
+    font-size: 70px;
     text-align: left;
     margin: 5% 0 0 0;
 }
 
 .remarks{
     position: fixed;
+    font-size: 10px;
     top: 40%;
-    left: 28px;
+    left: 20px;
     transform: rotate(90deg);
 	transform-origin: left top 0;
 }
@@ -94,10 +102,12 @@ body {
 }
 
 .nav-link {
-    font-family: 'Maison_neuebold';
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .navbar-toggler {
