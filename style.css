@@ -1,12 +1,46 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Circular Std", -apple-system, BlinkMacSystemFont, "Helvetica", "Arial", sans-serif;
+    -webkit-font-feature-settings: "liga", "kern";
+        font-feature-settings: "liga", "kern";
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
     font-style: normal;
-    letter-spacing: 2px;
     line-height: 1.5;
     background-color: white;
-    color: #383838;
+    color: black;
+    overflow-x: hidden;
 }
 
+.bartop{
+  width: 100vw;
+  height: 10px;
+  background-image: linear-gradient(to left, #feb4b1, pink, #FFDAB9, #FFFCC9);
+}
+
+.barbottom{
+  width: 100vw;
+  height: 10px;
+  background-image: linear-gradient(to right, #feb4b1, pink, #FFDAB9, #FFFCC9);
+}
+
+.leftbar{
+  width:10px;
+  height:100vh;
+  background-image: linear-gradient(to top, #feb4b1, pink, #FFDAB9, #FFFCC9);
+  position: fixed;
+}
+
+.rightbar{
+  width:10px;
+  height:100vh;
+  background-image: linear-gradient(to bottom, #feb4b1, pink, #FFDAB9, #FFFCC9);
+  position: fixed;
+  right: 0px;
+}
+
+.bold{
+  font-weight: bold;
+}
 
 span {
     width: auto;
@@ -14,41 +48,39 @@ span {
 }
 
 .container-land {
-    height: 40%;
-    margin: 0 20% 0 7%;
+    margin: 0 25% 0 8%;
 }
 
 .container {
     height: auto;
-    margin: 0 20% 0 7%;
+    margin: 0 25% 0 8%;
     padding: 0 4% 0 0;
 
 }
 
 .container-about {
     height: auto;
-    margin: 0 20% 0 6%;
+    margin: 0 25% 0 8%;
     padding-bottom: 5%;
 }
 
-.headers{
-  font-size: 25px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
 
 .name {
-    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
-    font-weight: 350;
-    font-size: 70px;
+    font-size: 65px;
     text-align: left;
-    margin: 12% 0 0 0;
+    margin: 0 0 3% 0;
+    font-weight: bold;
 }
 
 .lead {
     text-align: left;
-    font-size: 20px;
+    font-size: 16px;
+}
+
+.firstlead {
+    text-align: left;
+    margin: 8% 0 0 0;
 }
 
 .content {
@@ -61,37 +93,39 @@ span {
 
 
 .nav-link {
-    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
+.navbar-brand{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
 h1 {
-    font-size: 30px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 45px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 30px;
+    font-style: normal;
 }
 
 h3 {
     font-size: 25px;
-    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
-    font-weight: 500;
 }
 
-h4{
-  font-weight: 200;
-}
-
-#about-me {
-  width: 100vw;
-  height: 50%;
-    padding: 2% 0 5% 0;
-    background-color: #ededed;
+.fab{
+  font-weight: 400;
 }
 
 #portfolio {
@@ -99,41 +133,8 @@ h4{
     padding: 5% 0;
 }
 
-
-#me {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 5%;
-    border-radius: 50%;
-}
-
-#description {
-    font-size: 1.2em;
-    padding-top: 6%;
-    letter-spacing: 1px;
-    font-weight: 300;
-    height: auto;
-    background: transparent;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.remarks{
-    position: fixed;
-    font-size: 10px;
-    top: 40%;
-    left: 20px;
-    transform: rotate(90deg);
-	transform-origin: left top 0;
-}
-
 .about-wrap {
     margin: 5% 0;
-}
-
-#contact {
-    text-align: center;
 }
 
 .icon-bar {
@@ -220,20 +221,20 @@ a.box-effect:hover {
 }
 
 .social {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
+  display: inline-block;
+  text-align: center;
 }
 
 
 .wrapper-sm.fab .far {
     color: #D8E2DC;
-    margin-left: 20px;
     transition: all 0.3s ease;
+
 }
 
 .socialm {
-    margin-left: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     color: darkgrey;
 }
 
@@ -263,27 +264,6 @@ a.box-effect:hover {
 .wrapper-sm a:hover .fa-linkedin-in {
     color: #0077B5;
     transition: all 0.5s ease;
-}
-
-/* img.porteffect {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-} */
-
-
-/* img.porteffect:hover {
-    -webkit-filter: grayscale(60%);
-    filter: grayscale(60%);
-} */
-
-
-.project {
-  width: 90%;
-  height: 90%;
-  opacity: .8;
-  margin-bottom: 2%;
 }
 
 .content-overlay {
@@ -481,54 +461,67 @@ i.fa-angle-down{
   animation: bounce 2s infinite;
 }
 
-@media screen and (max-width: 800px) {
-  body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
+    @font-face {
+  font-family: 'Circular Std';
+  src: url('./fonts/CircularStd-Book.woff2') format('woff2'),
+       url('./fonts/CircularStd-Book.woff') format('woff'),
+       url('./fonts/CircularStd-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
-  .remarks {
-    opacity: 0;
-  }
-
-  .container-land {
-      height: 40%;
-      margin: 0 7%;
-  }
-
-  .container {
-      height: auto;
-      margin: 0 7%;
-      padding: 0 2% 0 0;
-
-  }
-
-  .container-about {
-      height: auto;
-      margin: 0 7%;
-      padding-bottom: 5%;
-  }
-
-  .arrow {
-    text-align: center;
-    color: black;
-  }
-
-  #me {
-      float: none;
-      margin-right: 0;
-      margin-left: 5%;
-      margin-bottom: 5%;
-      border-radius: 50%;
-  }
-}
-
 @font-face {
-      font-family: 'Maison_neuebold';
-      src: url('hMaisonNeue-Bold.woff2') format('woff2'),
-           url('MaisonNeue-Bold.woff') format('woff');
-      font-weight: 900;
-      font-style: normal;
-    }
+  font-family: 'Circular Std';
+  src: url('./fonts/CircularStd-BookItalic.woff2') format('woff2'),
+       url('./fonts/CircularStd-BookItalic.woff') format('woff'),
+       url('./fonts/CircularStd-BookItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Circular Std';
+  src: url('./fonts/CircularStd-Medium.woff2') format('woff2'),
+       url('./fonts/CircularStd-Medium.woff') format('woff'),
+       url('./fonts/CircularStd-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Circular Std';
+  src: url('./fonts/CircularStd-MediumItalic.woff2') format('woff2'),
+       url('./fonts/CircularStd-MediumItalic.woff') format('woff'),
+       url('./fonts/CircularStd-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Circular Std';
+  src: url('./fonts/CircularStd-Bold.woff2') format('woff2'),
+       url('./fonts/CircularStd-Bold.woff') format('woff'),
+       url('./fonts/CircularStd-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Circular Std';
+  src: url('./fonts/CircularStd-BoldItalic.woff2') format('woff2'),
+       url('./fonts/CircularStd-BoldItalic.woff') format('woff'),
+       url('./fonts/CircularStd-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Circular Std';
+  src: url('./fonts/CircularStd-Black.woff2') format('woff2'),
+       url('./fonts/CircularStd-Black.woff') format('woff'),
+       url('./fonts/CircularStd-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Circular Std';
+  src: url('./fonts/CircularStd-BlackItalic.woff2') format('woff2'),
+       url('./fonts/CircularStd-BlackItalic.woff') format('woff'),
+       url('./fonts/CircularStd-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
